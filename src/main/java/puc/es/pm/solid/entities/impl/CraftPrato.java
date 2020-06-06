@@ -20,36 +20,4 @@ public class CraftPrato implements Prato {
         this.extras = extras;
         this.quantidade = quantidade;
     }
-
-    public Tamanho getTamanho() {
-        return tamanho;
-    }
-
-    public void setTamanho(Tamanho tamanho) {
-        this.tamanho = tamanho;
-    }
-
-    public Carne getCarne() {
-        return carne;
-    }
-
-    public void setCarne(Carne carne) {
-        this.carne = carne;
-    }
-
-    public Set<Extra> getExtras() {
-        return extras;
-    }
-
-    public void setExtras(Set<Extra> extras) {
-        this.extras = extras;
-    }
-
-    public int getQuantidade() {
-        return quantidade;
-    }
-
-    public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
-    }
 }

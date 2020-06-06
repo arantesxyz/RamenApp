@@ -1,4 +1,4 @@
 package puc.es.pm.solid.users;
 
-public class Client {
+public interface Client {
 }

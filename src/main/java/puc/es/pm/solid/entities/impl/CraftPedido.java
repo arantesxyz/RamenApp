@@ -13,20 +13,4 @@ public class CraftPedido implements Pedido {
         this.pratos = pratos;
         this.bebidas = bebidas;
     }
-
-    public Set<CraftPrato> getPratos() {
-        return pratos;
-    }
-
-    public void setPratos(Set<CraftPrato> pratos) {
-        this.pratos = pratos;
-    }
-
-    public Set<Bebida> getBebidas() {
-        return bebidas;
-    }
-
-    public void setBebidas(Set<Bebida> bebidas) {
-        this.bebidas = bebidas;
-    }
 }
