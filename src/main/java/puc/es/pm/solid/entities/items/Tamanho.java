@@ -1,8 +1,6 @@
 package puc.es.pm.solid.entities.items;
 
-public class Tamanho extends Item {
+import puc.es.pm.solid.entities.Item;
 
-    public Tamanho(String name, double price) {
-        super(name, 1, price);
-    }
+public interface Tamanho extends Item {
 }
