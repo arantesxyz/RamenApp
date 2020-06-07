@@ -1,4 +1,4 @@
-package puc.es.pm.ramenapp.items;
+package puc.es.pm.ramenapp.menu;
 
 import puc.es.pm.ramenapp.entities.impl.CraftExtra;
 
