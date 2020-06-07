@@ -1,6 +1,6 @@
-package puc.es.pm.solid.entities.impl;
+package puc.es.pm.ramenapp.entities.impl;
 
-import puc.es.pm.solid.entities.items.Extra;
+import puc.es.pm.ramenapp.entities.Extra;
 
 public class CraftExtra extends CraftItem implements Extra {
     private int amount;
@@ -11,10 +11,15 @@ public class CraftExtra extends CraftItem implements Extra {
     }
 
     public int getAmount() {
-        return 0;
+        return amount;
     }
 
     public void setAmount(int amount) {
+        this.amount = amount;
+    }
 
+    @Override
+    public double getPreco() {
+        return super.getPreco() * amount;
     }
 }

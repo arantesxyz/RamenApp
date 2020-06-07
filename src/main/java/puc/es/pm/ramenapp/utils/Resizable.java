@@ -1,4 +1,4 @@
-package puc.es.pm.solid.entities;
+package puc.es.pm.ramenapp.utils;
 
 public interface Resizable {
     int getAmount();

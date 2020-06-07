@@ -1,6 +1,6 @@
-package puc.es.pm.solid.entities.impl;
+package puc.es.pm.ramenapp.entities.impl;
 
-import puc.es.pm.solid.entities.Item;
+import puc.es.pm.ramenapp.entities.Item;
 
 public class CraftItem implements Item {
     private String descricao;
