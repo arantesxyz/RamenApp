@@ -1,4 +1,4 @@
 package puc.es.pm.solid.entities;
 
-public interface Pedido {
+public interface Pedido extends Observable {
 }

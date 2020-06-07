@@ -14,10 +14,10 @@ public class CraftPrato implements Prato {
 
     private int quantidade;
 
-    public CraftPrato(Tamanho tamanho, Carne carne, Set<Extra> extras, int quantidade) {
+    public CraftPrato(Tamanho tamanho, Carne carne,  int quantidade, Set<Extra> extras) {
         this.tamanho = tamanho;
         this.carne = carne;
-        this.extras = extras;
         this.quantidade = quantidade;
+        this.extras = extras;
     }
 }
