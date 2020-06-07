@@ -18,7 +18,7 @@ import java.text.NumberFormat;
 public class App {
     private static NumberFormat FORMATTER = new DecimalFormat("#0.00");
     public static Logger CLIENT_LOGGER = new Logger("CLIENTE");
-    public static Logger SYS_LOGGER = new Logger("SYSTEMA");
+    public static Logger SYS_LOGGER = new Logger("SISTEMA");
 
 
     public static Restaurante restaurante = new RamenShop();
